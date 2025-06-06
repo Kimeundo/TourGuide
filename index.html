@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대한민국 여행가이드 - 전국 여행지와 맛집 정보</title>
+    <meta name="description" content="전국 여행지의 관광명소와 맛집 정보를 제공하는 종합 여행 포털">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">대한민국 여행가이드</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="yeosu.html">여수</a></li>
+                    <li><a href="jeju.html">제주도</a></li>
+                    <li><a href="jeonju.html">전주</a></li>
+                    <li><a href="#request-board">요청게시판</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('https://cdn.pixabay.com/photo/2020/09/21/06/53/bukchon-hanok-village-5589366_1280.jpg');">
+        <div class="hero-content">
+            <h1>대한민국의 아름다운 여행지를 찾아서</h1>
+            <p>현지 맛집부터 숨겨진 명소까지, 여행을 더 특별하게 만드는 방법</p>
+            <a href="#destinations" class="btn">여행지 둘러보기</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <!-- Destinations Section -->
+            <section id="destinations" class="destinations-section">
+                <h2 class="section-title">인기 여행지</h2>
+                <div class="cards">
+                    <!-- Yeosu Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2017/06/07/16/52/yeosu-2381230_1280.jpg" alt="여수 밤바다" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">여수</h3>
+                            <p class="card-text">아름다운 밤바다와 낭만이 있는 도시, 여수의 매력을 느껴보세요.</p>
+                            <a href="yeosu.html" class="card-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Jeju Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2020/04/17/12/28/sunrise-5055084_1280.jpg" alt="제주도 성산일출봉" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">제주도</h3>
+                            <p class="card-text">자연의 아름다움이 살아숨쉬는 섬, 제주도에서 특별한 추억을 만들어보세요.</p>
+                            <a href="jeju.html" class="card-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Jeonju Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2020/04/07/12/09/jeonju-5013518_1280.jpg" alt="전주 한옥마을" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">전주</h3>
+                            <p class="card-text">전통과 맛이 어우러진 도시, 전주에서 맛과 멋을 동시에 느껴보세요.</p>
+                            <a href="jeonju.html" class="card-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map Section -->
+            <section class="map-section">
+                <h2 class="section-title">대한민국 여행지도</h2>
+                <div class="map-container">
+                    <div id="map"></div>
+                </div>
+            </section>
+
+            <!-- Top Restaurants Section -->
+            <section class="restaurant-section">
+                <h2 class="section-title">전국 인기 맛집</h2>
+                <div class="restaurant-list">
+                    <!-- Yeosu Restaurant -->
+                    <div class="restaurant-card">
+                        <img src="https://cdn.pixabay.com/photo/2018/12/16/18/35/fish-3879202_1280.jpg" alt="여수 삼학집" class="restaurant-img">
+                        <div class="restaurant-info">
+                            <h3 class="restaurant-name">삼학집 (여수)</h3>
+                            <p class="restaurant-description">45년 전통의 서대회 맛집. 신선한 해산물과 깔끔한 맛이 특징입니다.</p>
+                            <div class="restaurant-details">
+                                <p><i class="fas fa-utensils"></i> 대표메뉴: 서대회, 갈치조림</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 주소: 전남 여수시 중앙동 180</p>
+                                <p><i class="fas fa-phone"></i> 전화: 061-662-6615</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Jeju Restaurant -->
+                    <div class="restaurant-card">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/11/00/32/pork-2629726_1280.jpg" alt="제주 이어돈" class="restaurant-img">
+                        <div class="restaurant-info">
+                            <h3 class="restaurant-name">이어돈 (제주)</h3>
+                            <p class="restaurant-description">제주 흑돼지 전문점. 두툼한 흑돼지 삼겹살과 특제 소스가 일품입니다.</p>
+                            <div class="restaurant-details">
+                                <p><i class="fas fa-utensils"></i> 대표메뉴: 흑돼지 삼겹살, 오겹살</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 주소: 제주시 일도2동 1042-7</p>
+                                <p><i class="fas fa-phone"></i> 전화: 064-722-4442</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Jeonju Restaurant -->
+                    <div class="restaurant-card">
+                        <img src="https://cdn.pixabay.com/photo/2015/05/31/13/59/salad-791891_1280.jpg" alt="전주 한일관" class="restaurant-img">
+                        <div class="restaurant-info">
+                            <h3 class="restaurant-name">한일관 (전주)</h3>
+                            <p class="restaurant-description">100년 전통의 비빔밥 맛집. 전통 방식으로 만드는 정통 전주 비빔밥을 맛볼 수 있습니다.</p>
+                            <div class="restaurant-details">
+                                <p><i class="fas fa-utensils"></i> 대표메뉴: 전주비빔밥, 콩나물국밥</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 주소: 전북 전주시 완산구 전동3가 2-198</p>
+                                <p><i class="fas fa-phone"></i> 전화: 063-288-5566</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Request Board -->
+            <section id="request-board" class="request-board">
+                <h2 class="section-title">여행 정보 요청 게시판</h2>
+                <p>여행 정보나 맛집 정보에 대한 요청이 있으시면 아래 양식을 작성해주세요.</p>
+                <form class="request-form">
+                    <div class="form-group">
+                        <label for="name">이름</label>
+                        <input type="text" id="name" placeholder="이름을 입력하세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">이메일</label>
+                        <input type="email" id="email" placeholder="이메일을 입력하세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="requestType">요청 유형</label>
+                        <select id="requestType">
+                            <option value="관광지 정보">관광지 정보</option>
+                            <option value="맛집 정보">맛집 정보</option>
+                            <option value="교통 정보">교통 정보</option>
+                            <option value="숙박 정보">숙박 정보</option>
+                            <option value="기타">기타</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">요청 내용</label>
+                        <textarea id="message" placeholder="요청 내용을 상세히 작성해주세요"></textarea>
+                    </div>
+                    <button type="submit" class="btn">제출하기</button>
+                </form>
+                <div class="recent-submissions mt-3">
+                    <h3>최근 요청 내역</h3>
+                    <div class="submission-item">
+                        <h4>김여행 (맛집 정보)</h4>
+                        <p>전주 한옥마을 근처에 가성비 좋은 콩나물국밥 맛집을 추천해주세요!</p>
+                        <small>2일 전</small>
+                        <hr>
+                    </div>
+                    <div class="submission-item">
+                        <h4>이관광 (교통 정보)</h4>
+                        <p>여수에서 거문도로 가는 배편 시간표와 요금 정보를 알려주세요.</p>
+                        <small>5일 전</small>
+                        <hr>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>소개</h3>
+                    <p>대한민국 여행가이드는 국내 여행지와 맛집 정보를 제공하는 종합 여행 포털입니다.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>빠른 링크</h3>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="yeosu.html">여수</a></li>
+                        <li><a href="jeju.html">제주도</a></li>
+                        <li><a href="jeonju.html">전주</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>연락처</h3>
+                    <p>이메일: info@koreatravelguide.com</p>
+                    <p>전화: 02-1234-5678</p>
+                </div>
+                <div class="footer-section">
+                    <h3>SNS</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 대한민국 여행가이드. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Map Script -->
+    <script>
+        // Define map markers
+        window.locationMarkers = [
+            {
+                name: '여수',
+                lat: 34.7604, 
+                lng: 127.6622,
+                description: '아름다운 밤바다와 풍부한 해산물이 특징인 남해안 관광도시'
+            },
+            {
+                name: '제주도',
+                lat: 33.4996,
+                lng: 126.5312,
+                description: '한국 최대의 섬, 아름다운 자연경관이 가득한 유네스코 세계자연유산'
+            },
+            {
+                name: '전주',
+                lat: 35.8242,
+                lng: 127.1480,
+                description: '한옥마을과 비빔밥으로 유명한 전통이 살아있는 도시'
+            }
+        ];
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>

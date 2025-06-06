@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제주도 여행 가이드 | 자연과 맛이 어우러진 섬 여행</title>
+    <meta name="description" content="성산일출봉부터 한라산까지, 제주도의 아름다운 자연과 흑돼지, 해산물 등 현지 맛집 정보를 한 곳에서 만나보세요.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">대한민국 여행가이드</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="yeosu.html">여수</a></li>
+                    <li><a href="jeju.html">제주도</a></li>
+                    <li><a href="jeonju.html">전주</a></li>
+                    <li><a href="#request-board">요청게시판</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('https://cdn.pixabay.com/photo/2020/04/17/12/28/sunrise-5055084_1280.jpg');">
+        <div class="hero-content">
+            <h1>제주도, 자연과 맛이 어우러진 섬 여행</h1>
+            <p>화산섬의 독특한 자연경관과 풍미 가득한 먹거리를 찾아서</p>
+            <a href="#attractions" class="btn">관광명소 보기</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <!-- Introduction -->
+            <section class="intro-section mb-3">
+                <h2 class="section-title">제주도 소개</h2>
+                <p>대한민국 최대의 섬이자 최남단에 위치한 제주도는 2007년 유네스코 세계자연유산으로 지정된 자연의 보고입니다. 한라산을 중심으로 형성된 화산섬으로, 독특한 자연경관과 문화를 자랑합니다. 오름, 용암동굴, 주상절리 등 화산활동으로 만들어진 독특한 지형과 함께 푸른 바다, 맑은 공기가 어우러진 곳입니다. 제주 특유의 음식문화와 해녀 문화 등 독특한 생활양식도 관광객들에게 매력적인 요소가 됩니다.</p>
+            </section>
+
+            <!-- Attractions Section -->
+            <section id="attractions" class="attractions-section mb-3">
+                <h2 class="section-title">제주도 주요 관광명소</h2>
+                <div class="cards">
+                    <!-- Seongsan Ilchulbong Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2020/04/17/12/28/sunrise-5055084_1280.jpg" alt="성산일출봉" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">성산일출봉</h3>
+                            <p class="card-text">유네스코 세계자연유산으로 등재된 화산분화구. 해돋이 명소로 유명하며 180m 높이에서 제주의 장관을 감상할 수 있습니다.</p>
+                            <p><strong>주소:</strong> 제주특별자치도 서귀포시 성산읍 성산리</p>
+                            <p><strong>이용시간:</strong> 07:00~19:00 (계절별 변동 있음)</p>
+                            <p><strong>입장료:</strong> 성인 5,000원, 청소년 2,500원, 어린이 2,500원</p>
+                        </div>
+                    </div>
+
+                    <!-- Hallasan Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/10/22/09/35/hallasan-1760645_1280.jpg" alt="한라산" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">한라산 국립공원</h3>
+                            <p class="card-text">높이 1,950m의 한국에서 가장 높은 산. 백록담 분화구와 다양한 식생을 볼 수 있는 트레킹 코스가 마련되어 있습니다.</p>
+                            <p><strong>주소:</strong> 제주특별자치도 제주시 아라동 산220-1</p>
+                            <p><strong>이용시간:</strong> 코스별 상이 (백록담 정상 입산은 보통 오후 1시까지)</p>
+                            <p><strong>입장료:</strong> 무료</p>
+                        </div>
+                    </div>
+
+                    <!-- Udo Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2019/12/26/18/41/beach-4720822_1280.jpg" alt="우도" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">우도</h3>
+                            <p class="card-text">제주 동쪽에 위치한 작은 섬으로, 하얀 산호사해변과 아름다운 해안경관이 특징입니다. 자전거나 스쿠터를 빌려 섬을 돌아보는 것이 일반적입니다.</p>
+                            <p><strong>주소:</strong> 제주특별자치도 제주시 우도면</p>
+                            <p><strong>교통:</strong> 성산포항에서 배로 약 15분 소요</p>
+                            <p><strong>배 요금:</strong> 왕복 8,500원</p>
+                        </div>
+                    </div>
+
+                    <!-- Manjanggul Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/04/18/05/04/cave-1335944_1280.jpg" alt="만장굴" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">만장굴</h3>
+                            <p class="card-text">세계에서 가장 긴 용암동굴 중 하나로, 총 길이가 약 13km에 달합니다. 동굴 내부의 독특한 용암석순과 용암종유석을 관찰할 수 있습니다.</p>
+                            <p><strong>주소:</strong> 제주특별자치도 제주시 구좌읍 만장굴길 182</p>
+                            <p><strong>이용시간:</strong> 09:00~18:00</p>
+                            <p><strong>입장료:</strong> 성인 4,000원, 청소년/군인 2,000원, 어린이 2,000원</p>
+                        </div>
+                    </div>
+
+                    <!-- Seopjikoji Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2021/01/23/23/11/jeju-island-5943543_1280.jpg" alt="섭지코지" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">섭지코지</h3>
+                            <p class="card-text">성산일출봉 근처에 있는 해안가로, 드라마 '올인'과 '슬픈연가'의 촬영지로 유명합니다. 해안절벽과 초원이 어우러진 풍경이 아름답습니다.</p>
+                            <p><strong>주소:</strong> 제주특별자치도 서귀포시 성산읍 섭지코지로</p>
+                            <p><strong>이용시간:</strong> 연중무휴, 24시간</p>
+                            <p><strong>입장료:</strong> 무료</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map Section -->
+            <section class="map-section mb-3">
+                <h2 class="section-title">제주도 여행 지도</h2>
+                <div class="map-container">
+                    <div id="map" data-city="jeju"></div>
+                </div>
+            </section>
+
+            <!-- Restaurant Section -->
+            <section class="restaurant-section mb-3">
+                <h2 class="section-title">제주도 현지인 추천 맛집</h2>
+                <div class="restaurant-list">
+                    <!-- Ieodonn Restaurant -->
+                    <div class="restaurant-card">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/11/00/32/pork-2629726_1280.jpg" alt="이어돈" class="restaurant-img">
+                        <div class="restaurant-info">
+                            <h3 class="restaurant-name">이어돈</h3>
+                            <p class="restaurant-description">제주 흑돼지 전문점. 두툼한 흑돼지 삼겹살과 특제 소스가 일품입니다.</p>
+                            <div class="restaurant-details">
+                                <p><i class="fas fa-utensils"></i> 대표메뉴: 흑돼지 삼겹살(200g 29,000원), 오겹살, 목살</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 주소: 제주시 일도2동 1042-7</p>
+                                <p><i class="fas fa-phone"></i> 전화: 064-722-4442</p>
+                                <p><i class="far fa-clock"></i> 영업시간: 11:00~22:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Jamaeuksu Restaurant -->
+                    <div class="restaurant-card">
+                        <img src="https://cdn.pixabay.com/photo/2018/06/24/01/22/noodle-soup-3493918_1280.jpg" alt="자매국수" class="restaurant-img">
+                        <div class="restaurant-info">
+                            <h3 class="restaurant-name">자매국수</h3>
+                            <p class="restaurant-description">제주도 대표 향토음식인 고기국수를 전문으로 하는 맛집. 진하고 구수한 육수가 일품입니다.</p>
+                            <div class="restaurant-details">
+                                <p><i class="fas fa-utensils"></i> 대표메뉴: 고기국수(8,000원), 비빔국수(9,000원)</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 주소: 제주시 일도1동 1326-3</p>
+                                <p><i class="fas fa-phone"></i> 전화: 064-727-5808</p>
+                                <p><i class="far fa-clock"></i> 영업시간: 07:00~18:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Samwonjung Restaurant -->
+                    <div class="restaurant-card">
+                        <img src="https://cdn.pixabay.com/photo/2015/03/14/13/42/fish-673286_1280.jpg" alt="삼원정" class="restaurant-img">
+                        <div class="restaurant-info">
+                            <h3 class="restaurant-name">삼원정</h3>
+                            <p class="restaurant-description">30년 이상의 역사를 자랑하는 제주 갈치조림 전문점. 푸짐하고 감칠맛 나는 갈치조림이 유명합니다.</p>
+                            <div class="restaurant-details">
+                                <p><i class="fas fa-utensils"></i> 대표메뉴: 갈치조림(2인 50,000원), 갈치구이</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 주소: 제주시 연동 263-10</p>
+                                <p><i class="fas fa-phone"></i> 전화: 064-748-0266</p>
+                                <p><i class="far fa-clock"></i> 영업시간: 09:30~21:30 (매월 둘째, 넷째 수요일 휴무)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Haenyeoeijib Restaurant -->
+                    <div class="restaurant-card">
+                        <img src="https://cdn.pixabay.com/photo/2016/08/22/19/32/porridge-1612640_1280.jpg" alt="해녀의집" class="restaurant-img">
+                        <div class="restaurant-info">
+                            <h3 class="restaurant-name">해녀의집</h3>
+                            <p class="restaurant-description">성산일출봉 근처에 위치한 해녀들이 직접 운영하는 맛집. 신선한 해산물과 제주식 전복죽이 유명합니다.</p>
+                            <div class="restaurant-details">
+                                <p><i class="fas fa-utensils"></i> 대표메뉴: 전복죽(15,000원), 성게비빔밥(15,000원)</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 주소: 서귀포시 성산읍 성산리 213-3</p>
+                                <p><i class="fas fa-phone"></i> 전화: 064-782-9898</p>
+                                <p><i class="far fa-clock"></i> 영업시간: 08:30~19:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Transportation Section -->
+            <section class="transportation-section mb-3">
+                <h2 class="section-title">제주도 교통 정보</h2>
+
+                <h3>제주도 오는 방법</h3>
+                <div class="mb-2">
+                    <p><strong>항공:</strong> 김포/김해/청주 등 전국 주요 공항에서 제주국제공항까지 (약 1시간 소요)</p>
+                    <p><strong>배편:</strong> 목포/부산/완도에서 제주항까지 (약 3-5시간 소요)</p>
+                </div>
+
+                <h3>우도 배편 정보</h3>
+                <div class="mb-2">
+                    <p><strong>출발지:</strong> 성산항 여객터미널</p>
+                    <p><strong>소요시간:</strong> 약 15분</p>
+                    <p><strong>출발시간:</strong> 07:30 ~ 17:00 (30분 간격)</p>
+                    <p><strong>요금:</strong> 성인 8,500원 (왕복)</p>
+                    <p><strong>문의전화:</strong> 064-783-0448</p>
+                </div>
+
+                <h3>제주도 내 교통</h3>
+                <div>
+                    <p><strong>렌터카:</strong> 제주 여행에서 가장 편리한 이동 수단</p>
+                    <p><strong>버스:</strong> 공항리무진, 시내버스, 관광지순환버스 운영</p>
+                    <p><strong>택시:</strong> 일반택시, 관광택시(코스별 요금제), 콜택시(064-727-1111)</p>
+                </div>
+            </section>
+
+            <!-- Request Board -->
+            <section id="request-board" class="request-board">
+                <h2 class="section-title">여행 정보 요청 게시판</h2>
+                <p>제주도 여행에 대해 더 알고 싶은 정보가 있으시면 아래 양식을 작성해주세요.</p>
+                <form class="request-form">
+                    <div class="form-group">
+                        <label for="name">이름</label>
+                        <input type="text" id="name" placeholder="이름을 입력하세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">이메일</label>
+                        <input type="email" id="email" placeholder="이메일을 입력하세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="requestType">요청 유형</label>
+                        <select id="requestType">
+                            <option value="관광지 정보">관광지 정보</option>
+                            <option value="맛집 정보">맛집 정보</option>
+                            <option value="교통 정보">교통 정보</option>
+                            <option value="숙박 정보">숙박 정보</option>
+                            <option value="기타">기타</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">요청 내용</label>
+                        <textarea id="message" placeholder="요청 내용을 상세히 작성해주세요"></textarea>
+                    </div>
+                    <button type="submit" class="btn">제출하기</button>
+                </form>
+                <div class="recent-submissions mt-3">
+                    <h3>최근 요청 내역</h3>
+                    <div class="submission-item">
+                        <h4>김제주 (관광지 정보)</h4>
+                        <p>한라산 등반 시 초보자가 가기 좋은 코스를 추천해주세요.</p>
+                        <small>3일 전</small>
+                        <hr>
+                    </div>
+                    <div class="submission-item">
+                        <h4>이맛집 (맛집 정보)</h4>
+                        <p>우도에서 꼭 가봐야 할 맛집이 궁금합니다.</p>
+                        <small>7일 전</small>
+                        <hr>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>소개</h3>
+                    <p>대한민국 여행가이드는 국내 여행지와 맛집 정보를 제공하는 종합 여행 포털입니다.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>빠른 링크</h3>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="yeosu.html">여수</a></li>
+                        <li><a href="jeju.html">제주도</a></li>
+                        <li><a href="jeonju.html">전주</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>연락처</h3>
+                    <p>이메일: info@koreatravelguide.com</p>
+                    <p>전화: 02-1234-5678</p>
+                </div>
+                <div class="footer-section">
+                    <h3>SNS</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 대한민국 여행가이드. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Map Script -->
+    <script>
+        // Define map markers for Jeju
+        window.locationMarkers = [
+            {
+                name: '성산일출봉',
+                lat: 33.4587, 
+                lng: 126.9427,
+                description: '유네스코 세계자연유산으로 등재된 화산분화구',
+                type: 'attraction',
+                address: '제주특별자치도 서귀포시 성산읍 성산리'
+            },
+            {
+                name: '한라산 국립공원',
+                lat: 33.3617,
+                lng: 126.5292,
+                description: '한국에서 가장 높은 산으로 백록담 분화구가 있는 곳',
+                type: 'attraction',
+                address: '제주특별자치도 제주시 아라동 산220-1'
+            },
+            {
+                name: '우도',
+                lat: 33.5033,
+                lng: 126.9544,
+                description: '제주 동쪽에 위치한 작은 섬으로, 하얀 산호사해변이 아름다움',
+                type: 'attraction',
+                address: '제주특별자치도 제주시 우도면'
+            },
+            {
+                name: '만장굴',
+                lat: 33.5284,
+                lng: 126.7714,
+                description: '세계에서 가장 긴 용암동굴 중 하나',
+                type: 'attraction',
+                address: '제주특별자치도 제주시 구좌읍 만장굴길 182'
+            },
+            {
+                name: '섭지코지',
+                lat: 33.4383,
+                lng: 126.9275,
+                description: '드라마 촬영지로 유명한 해안가',
+                type: 'attraction',
+                address: '제주특별자치도 서귀포시 성산읍 섭지코지로'
+            },
+            {
+                name: '이어돈',
+                lat: 33.5016,
+                lng: 126.5300,
+                description: '제주 흑돼지 전문점',
+                type: 'restaurant',
+                address: '제주시 일도2동 1042-7',
+                phone: '064-722-4442',
+                menu: '흑돼지 삼겹살, 오겹살, 목살'
+            },
+            {
+                name: '자매국수',
+                lat: 33.5123,
+                lng: 126.5216,
+                description: '제주 고기국수 전문점',
+                type: 'restaurant',
+                address: '제주시 일도1동 1326-3',
+                phone: '064-727-5808',
+                menu: '고기국수, 비빔국수'
+            },
+            {
+                name: '삼원정',
+                lat: 33.4876,
+                lng: 126.4958,
+                description: '30년 이상의 역사를 자랑하는 갈치조림 전문점',
+                type: 'restaurant',
+                address: '제주시 연동 263-10',
+                phone: '064-748-0266',
+                menu: '갈치조림, 갈치구이'
+            },
+            {
+                name: '해녀의집',
+                lat: 33.4583,
+                lng: 126.9350,
+                description: '해녀들이 직접 운영하는 전복죽 맛집',
+                type: 'restaurant',
+                address: '서귀포시 성산읍 성산리 213-3',
+                phone: '064-782-9898',
+                menu: '전복죽, 성게비빔밥'
+            }
+        ];
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>

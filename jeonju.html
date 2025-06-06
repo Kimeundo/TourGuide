@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전주 여행 가이드 | 전통과 맛의 도시</title>
+    <meta name="description" content="한옥마을, 경기전부터 비빔밥, 콩나물국밥까지 전주의 역사와 맛을 한 번에 만나보세요.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">대한민국 여행가이드</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="yeosu.html">여수</a></li>
+                    <li><a href="jeju.html">제주도</a></li>
+                    <li><a href="jeonju.html">전주</a></li>
+                    <li><a href="#request-board">요청게시판</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('https://cdn.pixabay.com/photo/2020/04/07/12/09/jeonju-5013518_1280.jpg');">
+        <div class="hero-content">
+            <h1>전주, 전통과 맛의 도시</h1>
+            <p>조선왕조의 발상지이자 한식의 본고장, 전주의 역사와 맛을 경험하세요</p>
+            <a href="#attractions" class="btn">관광명소 보기</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <!-- Introduction -->
+            <section class="intro-section mb-3">
+                <h2 class="section-title">전주 소개</h2>
+                <p>전라북도의 중심 도시인 전주는 한옥마을로 대표되는 전통적인 도시 경관과 조선왕조의 발상지로서의 역사적 가치를 간직한 도시입니다. 또한 '맛의 고장'으로 불리며 비빔밥, 콩나물국밥, 한정식 등 전통 한식을 대표하는 다양한 음식문화가 발달했습니다. 전주한옥마을은 약 700여 채의 한옥이 밀집된 곳으로, 매년 천만 명 이상의 관광객이 찾는 대한민국을 대표하는 관광지입니다.</p>
+            </section>
+
+            <!-- Attractions Section -->
+            <section id="attractions" class="attractions-section mb-3">
+                <h2 class="section-title">전주 주요 관광명소</h2>
+                <div class="cards">
+                    <!-- Hanok Village Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2020/04/07/12/09/jeonju-5013518_1280.jpg" alt="전주한옥마을" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">전주한옥마을</h3>
+                            <p class="card-text">전통한옥 약 700여 채가 밀집되어 있는 대한민국의 대표적인 전통 마을로, 경기전, 한옥생활체험관, 공예품점, 전통찻집 등이 있습니다.</p>
+                            <p><strong>주소:</strong> 전북 전주시 완산구 기린대로 99</p>
+                            <p><strong>이용시간:</strong> 연중무휴, 24시간</p>
+                        </div>
+                    </div>
+
+                    <!-- Gyeonggijeon Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2019/08/04/09/40/jeonju-4383306_1280.jpg" alt="경기전" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">경기전</h3>
+                            <p class="card-text">조선 태조 이성계의 어진을 모신 전각으로, 국보 제317호인 태조 이성계의 초상화 '어진'을 볼 수 있습니다.</p>
+                            <p><strong>주소:</strong> 전북 전주시 완산구 풍남동3가 102</p>
+                            <p><strong>이용시간:</strong> 09:00~18:00 (1~4월, 11~12월), 09:00~19:00 (5~10월)</p>
+                            <p><strong>입장료:</strong> 성인 3,000원, 청소년 2,000원, 어린이 1,000원</p>
+                        </div>
+                    </div>
+
+                    <!-- Omokdae Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/14/11/02/jeonju-2639956_1280.jpg" alt="오목대" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">오목대</h3>
+                            <p class="card-text">이성계가 남원 운봉에서 왜구를 물리친 후 승전 잔치를 베풀었다는 곳으로, 전주한옥마을을 한눈에 내려다볼 수 있는 전망대입니다.</p>
+                            <p><strong>주소:</strong> 전북 전주시 완산구 교동 1-1</p>
+                            <p><strong>이용시간:</strong> 연중무휴, 24시간</p>
+                            <p><strong>입장료:</strong> 무료</p>
+                        </div>
+                    </div>
+
+                    <!-- Jeondong Cathedral Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2019/02/02/14/56/jeon-dong-catholic-church-3970734_1280.jpg" alt="전동성당" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">전동성당</h3>
+                            <p class="card-text">1914년에 지어진 로마네스크 양식의 성당으로, 붉은 벽돌 건물이 인상적인 전주한옥마을의 랜드마크입니다.</p>
+                            <p><strong>주소:</strong> 전북 전주시 완산구 전동3가 162</p>
+                            <p><strong>이용시간:</strong> 09:00~18:00</p>
+                            <p><strong>입장료:</strong> 무료</p>
+                        </div>
+                    </div>
+
+                    <!-- Jaman Mural Village Card -->
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2019/08/04/09/40/jeonju-4383309_1280.jpg" alt="자만벽화마을" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">자만벽화마을</h3>
+                            <p class="card-text">오목대와 이목대 사이에 있는 작은 마을로, 다양한 벽화와 예술작품으로 꾸며진 감성적인 공간입니다.</p>
+                            <p><strong>주소:</strong> 전북 전주시 완산구 교동</p>
+                            <p><strong>이용시간:</strong> 연중무휴, 24시간</p>
+                            <p><strong>입장료:</strong> 무료</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map Section -->
+            <section class="map-section mb-3">
+                <h2 class="section-title">전주 여행 지도</h2>
+                <div class="map-container">
+                    <div id="map" data-city="jeonju"></div>
+                </div>
+            </section>
+
+            <!-- Restaurant Section -->
+            <section class="restaurant-section mb-3">
+                <h2 class="section-title">전주 현지인 추천 맛집</h2>
+                <div class="restaurant-list">
+                    <!-- Hailgwan Restaurant -->
+                    <div class="restaurant-card">
+                        <img src="https://cdn.pixabay.com/photo/2015/05/31/13/59/salad-791891_1280.jpg" alt="한일관" class="restaurant-img">
+                        <div class="restaurant-info">
+                            <h3 class="restaurant-name">한일관</h3>
+                            <p class="restaurant-description">100년 전통의 비빔밥 맛집. '백년가게'로 선정된 정통 전주비빔밥을 맛볼 수 있는 곳입니다.</p>
+                            <div class="restaurant-details">
+                                <p><i class="fas fa-utensils"></i> 대표메뉴: 전주비빔밥(11,000원), 콩나물국밥(8,000원)</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 주소: 전북 전주시 완산구 전동3가 2-198</p>
+                                <p><i class="fas fa-phone"></i> 전화: 063-288-5566</p>
+                                <p><i class="far fa-clock"></i> 영업시간: 09:00~21:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Jongnohoegwan Restaurant -->
+                    <div class="restaurant-card">
+                        <img src="https://cdn.pixabay.com/photo/2015/08/27/01/21/salad-909729_1280.jpg" alt="종로회관" class="restaurant-img">
+                        <div class="restaurant-info">
+                            <h3 class="restaurant-name">종로회관</h3>
+                            <p class="restaurant-description">45년 전통의 비빔밥 전문점. 신선한 나물과 육회가 어우러진 정통 전주비빔밥을 맛볼 수 있습니다.</p>
+                            <div class="restaurant-details">
+                                <p><i class="fas fa-utensils"></i> 대표메뉴: 비빔밥(10,000원), 육회비빔밥(13,000원), 돌솥밥</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 주소: 전북 전주시 완산구 풍남문1길 9</p>
+                                <p><i class="fas fa-phone"></i> 전화: 063-284-3300</p>
+                                <p><i class="far fa-clock"></i> 영업시간: 08:00~21:30</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Geuttaegejib Restaurant -->
+                    <div class="restaurant-card">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/18/15/05/bread-1835129_1280.jpg" alt="그때그집" class="restaurant-img">
+                        <div class="restaurant-info">
+                            <h3 class="restaurant-name">그때그집</h3>
+                            <p class="restaurant-description">남부시장 내에 위치한 유명 콩나물국밥집. 진하면서도 깔끔한 국물 맛이 일품입니다.</p>
+                            <div class="restaurant-details">
+                                <p><i class="fas fa-utensils"></i> 대표메뉴: 콩나물국밥(8,000원), 수제 비빔밥(8,000원)</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 주소: 전북 전주시 완산구 풍남문2길 53 남부시장</p>
+                                <p><i class="fas fa-phone"></i> 전화: 063-232-2279</p>
+                                <p><i class="far fa-clock"></i> 영업시간: 06:00~20:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Oraeok Restaurant -->
+                    <div class="restaurant-card">
+                        <img src="https://cdn.pixabay.com/photo/2017/01/03/11/33/beer-1949686_1280.jpg" alt="오래옥" class="restaurant-img">
+                        <div class="restaurant-info">
+                            <h3 class="restaurant-name">오래옥</h3>
+                            <p class="restaurant-description">전동성당 앞에 위치한 한정식집. 전통 방식으로 만든 콩나물국밥과 육회비빔밥이 유명합니다.</p>
+                            <div class="restaurant-details">
+                                <p><i class="fas fa-utensils"></i> 대표메뉴: 콩나물국밥(9,000원), 육회비빔밥(15,000원), 한정식(25,000원~)</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 주소: 전북 전주시 완산구 경원동2가 85-2</p>
+                                <p><i class="fas fa-phone"></i> 전화: 063-282-5600</p>
+                                <p><i class="far fa-clock"></i> 영업시간: 09:00~21:30</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Transportation Section -->
+            <section class="transportation-section mb-3">
+                <h2 class="section-title">전주 교통 정보</h2>
+
+                <h3>전주 오는 방법</h3>
+                <div class="mb-2">
+                    <p><strong>기차:</strong> 서울역/용산역 → 전주역 (KTX, 약 1시간 50분 소요)</p>
+                    <p><strong>고속버스:</strong> 서울 → 전주 (약 2시간 30분 소요)</p>
+                </div>
+
+                <h3>한옥마을 가는 방법</h3>
+                <div class="mb-2">
+                    <p><strong>전주역에서:</strong> 5-1, 7-1, 79, 385 버스 이용 (약 20분 소요)</p>
+                    <p><strong>전주고속버스터미널에서:</strong> 5-1, 369, 1000 버스 이용 (약 15분 소요)</p>
+                    <p><strong>택시:</strong> 전주역에서 약 10분 소요</p>
+                </div>
+
+                <h3>전주 시내 교통</h3>
+                <div>
+                    <p><strong>시내버스:</strong> 전주 시내 주요 관광지 연결</p>
+                    <p><strong>한옥마을 도보관광:</strong> 한옥마을은 도보로 둘러보기 최적화</p>
+                    <p><strong>한옥마을 마을버스:</strong> 800번 순환 버스 (30분 간격 운행)</p>
+                </div>
+            </section>
+
+            <!-- Request Board -->
+            <section id="request-board" class="request-board">
+                <h2 class="section-title">여행 정보 요청 게시판</h2>
+                <p>전주 여행에 대해 더 알고 싶은 정보가 있으시면 아래 양식을 작성해주세요.</p>
+                <form class="request-form">
+                    <div class="form-group">
+                        <label for="name">이름</label>
+                        <input type="text" id="name" placeholder="이름을 입력하세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">이메일</label>
+                        <input type="email" id="email" placeholder="이메일을 입력하세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="requestType">요청 유형</label>
+                        <select id="requestType">
+                            <option value="관광지 정보">관광지 정보</option>
+                            <option value="맛집 정보">맛집 정보</option>
+                            <option value="교통 정보">교통 정보</option>
+                            <option value="숙박 정보">숙박 정보</option>
+                            <option value="기타">기타</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">요청 내용</label>
+                        <textarea id="message" placeholder="요청 내용을 상세히 작성해주세요"></textarea>
+                    </div>
+                    <button type="submit" class="btn">제출하기</button>
+                </form>
+                <div class="recent-submissions mt-3">
+                    <h3>최근 요청 내역</h3>
+                    <div class="submission-item">
+                        <h4>김여행 (맛집 정보)</h4>
+                        <p>전주 한옥마을 근처에 가성비 좋은 콩나물국밥 맛집을 추천해주세요!</p>
+                        <small>2일 전</small>
+                        <hr>
+                    </div>
+                    <div class="submission-item">
+                        <h4>최호기심 (교통 정보)</h4>
+                        <p>전주역에서 한옥마을까지 가는 가장 편리한 대중교통 방법이 궁금합니다.</p>
+                        <small>4일 전</small>
+                        <hr>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>소개</h3>
+                    <p>대한민국 여행가이드는 국내 여행지와 맛집 정보를 제공하는 종합 여행 포털입니다.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>빠른 링크</h3>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="yeosu.html">여수</a></li>
+                        <li><a href="jeju.html">제주도</a></li>
+                        <li><a href="jeonju.html">전주</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>연락처</h3>
+                    <p>이메일: info@koreatravelguide.com</p>
+                    <p>전화: 02-1234-5678</p>
+                </div>
+                <div class="footer-section">
+                    <h3>SNS</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 대한민국 여행가이드. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Map Script -->
+    <script>
+        // Define map markers for Jeonju
+        window.locationMarkers = [
+            {
+                name: '전주한옥마을',
+                lat: 35.8150, 
+                lng: 127.1522,
+                description: '전통한옥 약 700여 채가 밀집되어 있는 전통 마을',
+                type: 'attraction',
+                address: '전북 전주시 완산구 기린대로 99'
+            },
+            {
+                name: '경기전',
+                lat: 35.8156,
+                lng: 127.1494,
+                description: '조선 태조 이성계의 어진을 모신 전각',
+                type: 'attraction',
+                address: '전북 전주시 완산구 풍남동3가 102'
+            },
+            {
+                name: '오목대',
+                lat: 35.8131,
+                lng: 127.1549,
+                description: '이성계가 승전 잔치를 베풀었다는 곳으로 한옥마을 전망대',
+                type: 'attraction',
+                address: '전북 전주시 완산구 교동 1-1'
+            },
+            {
+                name: '전동성당',
+                lat: 35.8153,
+                lng: 127.1517,
+                description: '1914년에 지어진 로마네스크 양식의 성당',
+                type: 'attraction',
+                address: '전북 전주시 완산구 전동3가 162'
+            },
+            {
+                name: '자만벽화마을',
+                lat: 35.8123,
+                lng: 127.1534,
+                description: '다양한 벽화와 예술작품으로 꾸며진 마을',
+                type: 'attraction',
+                address: '전북 전주시 완산구 교동'
+            },
+            {
+                name: '한일관',
+                lat: 35.8148,
+                lng: 127.1514,
+                description: '100년 전통의 비빔밥 맛집',
+                type: 'restaurant',
+                address: '전북 전주시 완산구 전동3가 2-198',
+                phone: '063-288-5566',
+                menu: '전주비빔밥, 콩나물국밥'
+            },
+            {
+                name: '종로회관',
+                lat: 35.8152,
+                lng: 127.1501,
+                description: '45년 전통의 비빔밥 전문점',
+                type: 'restaurant',
+                address: '전북 전주시 완산구 풍남문1길 9',
+                phone: '063-284-3300',
+                menu: '비빔밥, 육회비빔밥, 돌솥밥'
+            },
+            {
+                name: '그때그집',
+                lat: 35.8136,
+                lng: 127.1456,
+                description: '남부시장 내 유명 콩나물국밥집',
+                type: 'restaurant',
+                address: '전북 전주시 완산구 풍남문2길 53 남부시장',
+                phone: '063-232-2279',
+                menu: '콩나물국밥, 수제 비빔밥'
+            },
+            {
+                name: '오래옥',
+                lat: 35.8156,
+                lng: 127.1525,
+                description: '전동성당 앞에 위치한 한정식집',
+                type: 'restaurant',
+                address: '전북 전주시 완산구 경원동2가 85-2',
+                phone: '063-282-5600',
+                menu: '콩나물국밥, 육회비빔밥, 한정식'
+            }
+        ];
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
