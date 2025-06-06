@@ -3,379 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>여수 여행 가이드 | 바다가 선사하는 감동과 맛의 여행</title>
-    <meta name="description" content="오동도부터 거문도까지, 여수의 핵심 관광지와 현지인이 추천하는 진짜 맛집 완전 정복 가이드">
+    <title>여수 여행 가이드 | 대한민국 여행가이드</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <div class="container header-container">
-            <div class="logo">
-                <a href="index.html">대한민국 여행가이드</a>
-            </div>
-            <button class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
-            </button>
+        <div class="container">
+            <h1>여수 여행 가이드</h1>
             <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
                 <ul class="nav-menu">
                     <li><a href="index.html">홈</a></li>
-                    <li><a href="yeosu.html">여수</a></li>
+                    <li><a href="yeosu.html" class="active">여수</a></li>
                     <li><a href="jeju.html">제주도</a></li>
                     <li><a href="jeonju.html">전주</a></li>
-                    <li><a href="#request-board">요청게시판</a></li>
+                    <li><a href="index.html#request">요청 게시판</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" style="background-image: url('https://cdn.pixabay.com/photo/2020/09/03/15/37/yeosu-5541905_1280.jpg');">
-        <div class="hero-content">
-            <h1>여수, 바다가 선사하는 감동과 맛의 여행</h1>
-            <p>오동도부터 거문도까지, 여수의 진정한 매력을 발견하세요</p>
-            <a href="#attractions" class="btn">관광명소 보기</a>
+    <section class="hero region-hero yeosu-hero">
+        <div class="container">
+            <h2>여수, 바다가 선사하는 감동과 맛의 여행</h2>
+            <p>아름다운 야경과 신선한 해산물이 기다리는 남해안의 보석</p>
         </div>
     </section>
 
-    <!-- Main Content -->
-    <div class="main-content">
+    <section class="region-intro">
         <div class="container">
-            <!-- Introduction -->
-            <section class="intro-section mb-3">
-                <h2 class="section-title">여수 소개</h2>
-                <p>전라남도 동남부에 위치한 여수는 아름다운 해안선과 365개의 섬이 있는 해양관광도시입니다. '여수 밤바다'로 알려진 아름다운 야경과 풍성한 해산물, 그리고 역사적 유적지까지 다양한 즐길 거리를 제공합니다. 여수세계박람회(2012) 개최지로서 현대적인 관광 인프라도 잘 갖추어져 있습니다.</p>
-            </section>
-
-            <!-- Attractions Section -->
-            <section id="attractions" class="attractions-section mb-3">
-                <h2 class="section-title">여수 주요 관광명소</h2>
-                <div class="cards">
-                    <!-- Odongdo Card -->
-                    <div class="card">
-                        <img src="https://cdn.pixabay.com/photo/2020/02/24/13/31/bridge-4876638_1280.jpg" alt="오동도" class="card-img">
-                        <div class="card-content">
-                            <h3 class="card-title">오동도</h3>
-                            <p class="card-text">동백나무 군락지로 유명한 오동도는 여수의 대표 관광지입니다. 동백꽃이 피는 봄에 특히 아름답습니다.</p>
-                            <p><strong>주소:</strong> 전남 여수시 수정동 오동도로</p>
-                            <p><strong>이용시간:</strong> 연중무휴, 24시간</p>
-                        </div>
-                    </div>
-
-                    <!-- Hyangiram Card -->
-                    <div class="card">
-                        <img src="https://cdn.pixabay.com/photo/2014/12/01/14/01/temple-553462_1280.jpg" alt="향일암" class="card-img">
-                        <div class="card-content">
-                            <h3 class="card-title">향일암</h3>
-                            <p class="card-text">일출 명소로 유명한 절벽 위의 사찰. 동해를 마주한 환상적인 일출 경관을 감상할 수 있습니다.</p>
-                            <p><strong>주소:</strong> 전남 여수시 돌산읍 향일암로 60</p>
-                            <p><strong>이용시간:</strong> 06:00~18:00</p>
-                        </div>
-                    </div>
-
-                    <!-- Dolsan Park Card -->
-                    <div class="card">
-                        <img src="https://cdn.pixabay.com/photo/2019/09/16/09/12/the-night-view-of-yeosu-4480976_1280.jpg" alt="돌산공원" class="card-img">
-                        <div class="card-content">
-                            <h3 class="card-title">돌산공원</h3>
-                            <p class="card-text">여수 밤바다와 돌산대교의 야경을 감상할 수 있는 최적의 장소입니다.</p>
-                            <p><strong>주소:</strong> 전남 여수시 돌산읍 우두리 산1-11</p>
-                            <p><strong>이용시간:</strong> 연중무휴, 24시간</p>
-                        </div>
-                    </div>
-
-                    <!-- Cable Car Card -->
-                    <div class="card">
-                        <img src="https://cdn.pixabay.com/photo/2020/03/23/03/17/yeosu-4958891_1280.jpg" alt="해상케이블카" class="card-img">
-                        <div class="card-content">
-                            <h3 class="card-title">여수 해상케이블카</h3>
-                            <p class="card-text">바다 위를 통과하는 케이블카로, 여수의 아름다운 풍경을 한눈에 감상할 수 있습니다.</p>
-                            <p><strong>주소:</strong> 전남 여수시 돌산읍 돌산로 3600-1</p>
-                            <p><strong>이용시간:</strong> 09:00~21:30 (계절에 따라 변동)</p>
-                            <p><strong>요금:</strong> 일반 캐빈 15,000원, 크리스탈 캐빈 20,000원</p>
-                        </div>
-                    </div>
-
-                    <!-- Geomundo Card -->
-                    <div class="card">
-                        <img src="https://cdn.pixabay.com/photo/2019/11/28/14/36/geomundo-4659335_1280.jpg" alt="거문도" class="card-img">
-                        <div class="card-content">
-                            <h3 class="card-title">거문도</h3>
-                            <p class="card-text">100년 넘는 역사의 등대와 천연 비경이 아름다운 섬입니다. 특히 백도의 절경은 잊지 못할 추억을 만들어 줍니다.</p>
-                            <p><strong>주소:</strong> 전남 여수시 삼산면 거문리</p>
-                            <p><strong>교통:</strong> 여수 연안여객터미널에서 배로 약 2시간 30분 소요</p>
-                        </div>
-                    </div>
+            <h2 class="section-title">여수 소개</h2>
+            <div class="intro-content">
+                <div class="intro-text">
+                    <p>전라남도 남해안에 위치한 여수는 365개의 크고 작은 섬과 아름다운 해안선으로 이루어진 해양 도시입니다. 특히 밤바다의 야경이 유명하여 '여수 밤바다'라는 노래가 히트할 정도로 그 아름다움을 인정받고 있습니다.</p>
+                    <p>신선한 해산물을 활용한 다양한 음식 문화와, 깨끗한 바다, 특색있는 섬 관광지까지 다양한 매력이 공존하는 곳입니다.</p>
                 </div>
-            </section>
-
-            <!-- Map Section -->
-            <section class="map-section mb-3">
-                <h2 class="section-title">여수 여행 지도</h2>
-                <div class="map-container">
-                    <div id="map" data-city="yeosu"></div>
+                <div class="region-map" id="yeosu-map">
+                    <!-- 지도는 script.js에서 로드됩니다 -->
                 </div>
-            </section>
-
-            <!-- Restaurant Section -->
-            <section class="restaurant-section mb-3">
-                <h2 class="section-title">여수 현지인 추천 맛집</h2>
-                <div class="restaurant-list">
-                    <!-- Samhakjip Restaurant -->
-                    <div class="restaurant-card">
-                        <img src="https://cdn.pixabay.com/photo/2018/12/16/18/35/fish-3879202_1280.jpg" alt="삼학집" class="restaurant-img">
-                        <div class="restaurant-info">
-                            <h3 class="restaurant-name">삼학집</h3>
-                            <p class="restaurant-description">45년 전통의 서대회 맛집. 깔끔하고 정갈한 밑반찬과 신선한 서대회가 일품입니다.</p>
-                            <div class="restaurant-details">
-                                <p><i class="fas fa-utensils"></i> 대표메뉴: 서대회무침(30,000원), 갈치구이</p>
-                                <p><i class="fas fa-map-marker-alt"></i> 주소: 전남 여수시 중앙동 180</p>
-                                <p><i class="fas fa-phone"></i> 전화: 061-662-6615</p>
-                                <p><i class="far fa-clock"></i> 영업시간: 09:00~21:00</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Daesung Restaurant -->
-                    <div class="restaurant-card">
-                        <img src="https://cdn.pixabay.com/photo/2018/03/21/12/13/food-3246124_1280.jpg" alt="대성식당" class="restaurant-img">
-                        <div class="restaurant-info">
-                            <h3 class="restaurant-name">대성식당</h3>
-                            <p class="restaurant-description">여수 현지인이 사랑하는 45년 전통 삼치회 전문점. 신선한 삼치회와 갓김치가 일품입니다.</p>
-                            <div class="restaurant-details">
-                                <p><i class="fas fa-utensils"></i> 대표메뉴: 삼치회(소자 35,000원), 서대회</p>
-                                <p><i class="fas fa-map-marker-alt"></i> 주소: 전남 여수시 교동남1길 5-9</p>
-                                <p><i class="fas fa-phone"></i> 전화: 061-663-0745</p>
-                                <p><i class="far fa-clock"></i> 영업시간: 09:00~21:00</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Gwangjangseoedaehoe Restaurant -->
-                    <div class="restaurant-card">
-                        <img src="https://cdn.pixabay.com/photo/2016/01/22/02/13/meat-1155132_1280.jpg" alt="광장서대회" class="restaurant-img">
-                        <div class="restaurant-info">
-                            <h3 class="restaurant-name">광장서대회</h3>
-                            <p class="restaurant-description">이순신광장 앞에 위치한 서대회 전문점. 쫄깃한 서대회와 깊은 맛의 갈치조림이 유명합니다.</p>
-                            <div class="restaurant-details">
-                                <p><i class="fas fa-utensils"></i> 대표메뉴: 서대회무침, 장어탕</p>
-                                <p><i class="fas fa-map-marker-alt"></i> 주소: 전남 여수시 교동남 1길 6-8</p>
-                                <p><i class="fas fa-phone"></i> 전화: 061-666-2782</p>
-                                <p><i class="far fa-clock"></i> 영업시간: 08:30~22:00</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Seommaeul Restaurant -->
-                    <div class="restaurant-card">
-                        <img src="https://cdn.pixabay.com/photo/2018/02/08/15/02/fish-3139321_1280.jpg" alt="섬마을횟집" class="restaurant-img">
-                        <div class="restaurant-info">
-                            <h3 class="restaurant-name">섬마을횟집</h3>
-                            <p class="restaurant-description">거문도에 위치한 횟집. 자연산 회와 갈치조림이 특히 유명합니다. 1박 3식 프로그램도 운영합니다.</p>
-                            <div class="restaurant-details">
-                                <p><i class="fas fa-utensils"></i> 대표메뉴: 자연산 참돔회, 갈치조림</p>
-                                <p><i class="fas fa-map-marker-alt"></i> 주소: 전남 여수시 삼산면 거문리</p>
-                                <p><i class="fas fa-phone"></i> 전화: 061-665-XXXX</p>
-                                <p><i class="far fa-clock"></i> 영업시간: 11:00~21:00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Transportation Section -->
-            <section class="transportation-section mb-3">
-                <h2 class="section-title">여수 교통 정보</h2>
-
-                <h3>여수 오는 방법</h3>
-                <div class="mb-2">
-                    <p><strong>기차:</strong> 서울역/용산역 → 여수엑스포역 (KTX, 약 3시간 소요)</p>
-                    <p><strong>고속버스:</strong> 서울 → 여수 (약 4시간 소요)</p>
-                    <p><strong>항공:</strong> 김포공항 → 여수공항 (약 1시간 소요)</p>
-                </div>
-
-                <h3>거문도 배편 정보</h3>
-                <div class="mb-2">
-                    <p><strong>출발지:</strong> 여수연안여객선터미널</p>
-                    <p><strong>소요시간:</strong> 약 2시간 30분</p>
-                    <p><strong>출발시간:</strong> 07:50 (하멜호)</p>
-                    <p><strong>요금:</strong> 성인 26,500원 (편도)</p>
-                    <p><strong>문의전화:</strong> 061-662-1144</p>
-                </div>
-
-                <h3>여수 시내 교통</h3>
-                <div>
-                    <p><strong>시내버스:</strong> 주요 관광지를 연결하는 노선 다수 운행</p>
-                    <p><strong>여수관광택시:</strong> 061-641-5500 (주요 관광지 코스 운영)</p>
-                    <p><strong>시티투어버스:</strong> 여수의 주요 관광지를 순환 (문의: 061-659-3872)</p>
-                </div>
-            </section>
-
-            <!-- Request Board -->
-            <section id="request-board" class="request-board">
-                <h2 class="section-title">여행 정보 요청 게시판</h2>
-                <p>여수 여행에 대해 더 알고 싶은 정보가 있으시면 아래 양식을 작성해주세요.</p>
-                <form class="request-form">
-                    <div class="form-group">
-                        <label for="name">이름</label>
-                        <input type="text" id="name" placeholder="이름을 입력하세요">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">이메일</label>
-                        <input type="email" id="email" placeholder="이메일을 입력하세요">
-                    </div>
-                    <div class="form-group">
-                        <label for="requestType">요청 유형</label>
-                        <select id="requestType">
-                            <option value="관광지 정보">관광지 정보</option>
-                            <option value="맛집 정보">맛집 정보</option>
-                            <option value="교통 정보">교통 정보</option>
-                            <option value="숙박 정보">숙박 정보</option>
-                            <option value="기타">기타</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">요청 내용</label>
-                        <textarea id="message" placeholder="요청 내용을 상세히 작성해주세요"></textarea>
-                    </div>
-                    <button type="submit" class="btn">제출하기</button>
-                </form>
-                <div class="recent-submissions mt-3">
-                    <h3>최근 요청 내역</h3>
-                    <div class="submission-item">
-                        <h4>박여수 (숙박 정보)</h4>
-                        <p>거문도에 1박 할 수 있는 깨끗한 숙소 추천 부탁드립니다.</p>
-                        <small>1일 전</small>
-                        <hr>
-                    </div>
-                    <div class="submission-item">
-                        <h4>이관광 (교통 정보)</h4>
-                        <p>여수에서 거문도로 가는 배편 시간표와 요금 정보를 알려주세요.</p>
-                        <small>5일 전</small>
-                        <hr>
-                    </div>
-                </div>
-            </section>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Footer -->
+    <section class="attractions">
+        <div class="container">
+            <h2 class="section-title">주요 관광지</h2>
+            <div class="attractions-list">
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1603830218137-53cee3d72d94?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2RvbmdkbyUyMHllb3N1fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="오동도">
+                    <div class="attraction-content">
+                        <h3>오동도</h3>
+                        <p>동백꽃이 아름다운 섬으로, 여수 대표 관광지입니다. 방파제 길을 따라 걸으며 바다 풍경을 감상할 수 있습니다.</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 수정동</p>
+                    </div>
+                </div>
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1600001722945-91e1a90a0513?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9sc2FuJTIwYnJpZGdlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="돌산대교">
+                    <div class="attraction-content">
+                        <h3>돌산공원과 돌산대교</h3>
+                        <p>여수 밤바다를 가장 아름답게 볼 수 있는 장소로, 특히 밤에 조명이 켜진 돌산대교의 모습이 환상적입니다.</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 돌산읍</p>
+                    </div>
+                </div>
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1604077353753-4e3b92d42a16?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHlhbmdpbGFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="향일암">
+                    <div class="attraction-content">
+                        <h3>향일암</h3>
+                        <p>일출을 보기 좋은 바다 위 암자로, 여수에서 꼭 가봐야 할 명소 중 하나입니다.</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 돌산읍 향일암로 60</p>
+                    </div>
+                </div>
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1603202456363-1a034efa032d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2VvbXVuZG98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="거문도">
+                    <div class="attraction-content">
+                        <h3>거문도</h3>
+                        <p>남해의 아름다운 섬으로, 등대와 천연 비경을 자랑합니다. 근처의 백도와 함께 방문하기 좋습니다.</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 삼산면 거문도</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="restaurants">
+        <div class="container">
+            <h2 class="section-title">추천 맛집</h2>
+            <div class="restaurants-list">
+                <div class="restaurant-item">
+                    <img src="https://images.unsplash.com/photo-1553163147-622ab57be1c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c2VhZm9vZCUyMGtvcmVhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="삼학집">
+                    <div class="restaurant-content">
+                        <h3>삼학집</h3>
+                        <p><strong>추천메뉴:</strong> 서대회무침</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 이순신광장로 200-3</p>
+                        <p><strong>영업시간:</strong> 09:00-21:00 (화요일 휴무)</p>
+                    </div>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://images.unsplash.com/photo-1635753415853-0d6ac689a221?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8a29yZWFuJTIwZmlzaCUyMHN0ZXd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="대성식당">
+                    <div class="restaurant-content">
+                        <h3>대성식당</h3>
+                        <p><strong>추천메뉴:</strong> 삼치회, 서대회</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 교동남1길 5-9</p>
+                        <p><strong>영업시간:</strong> 09:00-21:00 (연중무휴)</p>
+                    </div>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://images.unsplash.com/photo-1595436252086-7496fb8c75fb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2FsY2hpJTIwa29yZWF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="섬마을횟집">
+                    <div class="restaurant-content">
+                        <h3>섬마을횟집</h3>
+                        <p><strong>추천메뉴:</strong> 갈치조림, 자연산회</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 국동남9길 5</p>
+                        <p><strong>영업시간:</strong> 10:30-22:00 (월요일 휴무)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="transportation">
+        <div class="container">
+            <h2 class="section-title">교통 정보</h2>
+            <div class="transport-info">
+                <div class="transport-item">
+                    <i class="fas fa-train"></i>
+                    <h3>기차</h3>
+                    <p>KTX로 서울에서 약 3시간 소요</p>
+                </div>
+                <div class="transport-item">
+                    <i class="fas fa-bus"></i>
+                    <h3>버스</h3>
+                    <p>전국 각지에서 여수 종합버스터미널로 운행</p>
+                </div>
+                <div class="transport-item">
+                    <i class="fas fa-car"></i>
+                    <h3>자가용</h3>
+                    <p>순천완주고속도로, 남해고속도로 이용</p>
+                </div>
+                <div class="transport-item">
+                    <i class="fas fa-ship"></i>
+                    <h3>배편</h3>
+                    <p>여수 연안여객터미널에서 거문도 및 주변 섬으로 출발</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
-                    <h3>소개</h3>
-                    <p>대한민국 여행가이드는 국내 여행지와 맛집 정보를 제공하는 종합 여행 포털입니다.</p>
+                <div class="footer-logo">
+                    <h2>대한민국 여행가이드</h2>
+                    <p>더 나은 여행을 위한 종합 정보</p>
                 </div>
-                <div class="footer-section">
-                    <h3>빠른 링크</h3>
+                <div class="footer-links">
+                    <h3>바로가기</h3>
                     <ul>
                         <li><a href="index.html">홈</a></li>
-                        <li><a href="yeosu.html">여수</a></li>
                         <li><a href="jeju.html">제주도</a></li>
                         <li><a href="jeonju.html">전주</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
-                    <h3>연락처</h3>
-                    <p>이메일: info@koreatravelguide.com</p>
-                    <p>전화: 02-1234-5678</p>
-                </div>
-                <div class="footer-section">
-                    <h3>SNS</h3>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
+                <div class="footer-contact">
+                    <h3>문의</h3>
+                    <p><i class="fas fa-envelope"></i> info@koreatravelguide.com</p>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2025 대한민국 여행가이드. All Rights Reserved.</p>
+                <p>&copy; 2025 대한민국 여행가이드. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Map Script -->
-    <script>
-        // Define map markers for Yeosu
-        window.locationMarkers = [
-            {
-                name: '오동도',
-                lat: 34.7442, 
-                lng: 127.7652,
-                description: '동백나무 군락지로 유명한 여수의 대표 관광지',
-                type: 'attraction',
-                address: '전남 여수시 수정동 오동도로'
-            },
-            {
-                name: '향일암',
-                lat: 34.6036,
-                lng: 127.8075,
-                description: '일출 명소로 유명한 절벽 위의 사찰',
-                type: 'attraction',
-                address: '전남 여수시 돌산읍 향일암로 60'
-            },
-            {
-                name: '돌산공원',
-                lat: 34.7270,
-                lng: 127.7330,
-                description: '여수 밤바다와 돌산대교의 야경을 감상할 수 있는 장소',
-                type: 'attraction',
-                address: '전남 여수시 돌산읍 우두리 산1-11'
-            },
-            {
-                name: '여수 해상케이블카',
-                lat: 34.7380,
-                lng: 127.7599,
-                description: '바다 위를 통과하는 케이블카',
-                type: 'attraction',
-                address: '전남 여수시 돌산읍 돌산로 3600-1'
-            },
-            {
-                name: '거문도',
-                lat: 34.0286,
-                lng: 127.3178,
-                description: '100년 넘는 역사의 등대와 천연 비경이 아름다운 섬',
-                type: 'attraction',
-                address: '전남 여수시 삼산면 거문리'
-            },
-            {
-                name: '삼학집',
-                lat: 34.7396,
-                lng: 127.7431,
-                description: '45년 전통의 서대회 맛집',
-                type: 'restaurant',
-                address: '전남 여수시 중앙동 180',
-                phone: '061-662-6615',
-                menu: '서대회무침, 갈치구이'
-            },
-            {
-                name: '대성식당',
-                lat: 34.7399,
-                lng: 127.7396,
-                description: '45년 전통 삼치회 전문점',
-                type: 'restaurant',
-                address: '전남 여수시 교동남1길 5-9',
-                phone: '061-663-0745',
-                menu: '삼치회, 서대회'
-            },
-            {
-                name: '광장서대회',
-                lat: 34.7409,
-                lng: 127.7428,
-                description: '이순신광장 앞 서대회 전문점',
-                type: 'restaurant',
-                address: '전남 여수시 교동남 1길 6-8',
-                phone: '061-666-2782',
-                menu: '서대회무침, 장어탕'
-            }
-        ];
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=initMap" async defer></script>
     <script src="script.js"></script>
 </body>
 </html>
